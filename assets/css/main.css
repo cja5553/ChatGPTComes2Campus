@@ -2039,12 +2039,19 @@ input, select, textarea {
 		}
 
 /* Footer */
-
-	#footer .copyright {
-		color: #505051;
-		font-size: 0.9em;
+	#footer {
+		text-align: center; /* Center text horizontally */
+		display: flex; /* Enable Flexbox for centering */
+		flex-direction: column; /* Stack content vertically */
+		justify-content: center; /* Center content vertically */
+		align-items: center; /* Center content horizontally */
+		padding: 2em; /* Add padding for spacing */
+		background-color: #1f2224; /* Optional: ensure the footer background stands out */
 	}
 
-		#footer .copyright a {
-			color: inherit;
-		}
+	#footer .copyright {
+		color: #a0a0a1; /* Ensure the copyright text is readable */
+		margin: 1em 0; /* Add spacing around copyright text */
+		font-size: 0.9em; /* Keep the font size consistent */
+		text-align: center; /* Ensure text is centered */
+	}
