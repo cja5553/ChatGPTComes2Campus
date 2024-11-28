@@ -1,45 +1,62 @@
 /* General Reset */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background: #f4f4f4;
+    background: #f9f9f9;
     color: #333;
-    line-height: 1.6;
 }
 
 /* Header Styling */
 header {
     text-align: center;
     background: #333;
-    color: #fff;
+    color: white;
     padding: 1rem;
+    font-size: 1.5rem;
 }
 
-/* Main Container */
+/* Main Container with Grid Layout */
 #themes-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
     padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto; /* Center the content */
 }
 
 /* Theme Card Styling */
 .theme-card {
     background: #fff;
     border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 1rem;
-    width: 300px;
-    text-align: center;
     cursor: pointer;
-    transition: transform 0.2s ease-in-out;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* Alternate Card Colors */
+.theme-card:nth-child(odd) {
+    background: #e8f5e9; /* Light green */
+}
+
+.theme-card:nth-child(even) {
+    background: #e3f2fd; /* Light blue */
+}
+
+/* Hover Effect for Cards */
 .theme-card:hover {
-    transform: scale(1.05);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Card Title Styling */
+.theme-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #333;
 }
 
 /* Modal Styling */
@@ -56,22 +73,42 @@ header {
 }
 
 .modal-content {
-    background: #fff;
+    background: white;
     padding: 2rem;
-    border-radius: 8px;
+    border-radius: 10px;
     text-align: center;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .modal-content h2 {
     margin-bottom: 1rem;
 }
 
+.modal-content p {
+    margin-bottom: 1.5rem;
+    color: #555;
+}
+
 .modal-content button {
-    margin-top: 1rem;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1.5rem;
     background: #007BFF;
-    color: #fff;
+    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.modal-content button:hover {
+    background: #0056b3;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 1rem;
+    font-size: 0.9rem;
 }
