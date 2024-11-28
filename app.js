@@ -1,3 +1,4 @@
+// Load the themes dynamically
 document.addEventListener('DOMContentLoaded', () => {
     fetch('themes.json')
         .then(response => response.json())
@@ -16,10 +17,11 @@ document.addEventListener('DOMContentLoaded', () => {
         .catch(error => console.error('Error loading themes:', error));
 });
 
+// Function to display the modal with details
 function showModal(title, description) {
     const modal = document.createElement('div');
     modal.className = 'modal';
-    modal.style.display = 'flex';
+    modal.style.display = 'flex'; // Make the modal visible
     modal.innerHTML = `
         <div class="modal-content">
             <h2>${title}</h2>
@@ -30,6 +32,7 @@ function showModal(title, description) {
     document.body.appendChild(modal);
 }
 
+// Function to close the modal
 function closeModal(button) {
     const modal = button.closest('.modal');
     modal.remove();
