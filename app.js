@@ -11,7 +11,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 card.onclick = () => showModal(theme.title, theme.explanation);
                 container.appendChild(card);
             });
-        });
+        })
+        .catch(error => console.error('Error loading themes:', error));
 });
 
 // Function to display the modal with details

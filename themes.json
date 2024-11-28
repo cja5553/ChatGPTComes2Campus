@@ -1,40 +1,39 @@
 {
-    "themes": [
-      {
-        "no": 1,
-        "title": "Academic Integrity and Responsible AI Use",
-        "explanation": "The majority of universities emphasize acceptance of AI in academic work, focusing on preventing plagiarism and unauthorized assistance."
-      },
-      {
-        "no": 2,
-        "title": "Clear Communication of AI Policies",
-        "explanation": "Some institutions encourage faculty to articulate their expectations for AI use, ensuring that students understand the implications when using AI tools in their coursework."
-      },
-      {
-        "no": 3,
-        "title": "Data Privacy and Security Concerns",
-        "explanation": "Many institutions place guidelines restricting the input of sensitive or confidential information into AI systems, stressing compliance with privacy regulations."
-      },
-      {
-        "no": 4,
-        "title": "Ethical Considerations in AI Use",
-        "explanation": "Many institutions acknowledge AI’s potential for bias, misinformation, and perpetuating inequalities, with some encouraging critical engagement and ethical discussions on its use."
-      },
-      {
-        "no": 5,
-        "title": "Continuous Adaptation and Policy Evolution",
-        "explanation": "Some institutions commit to regularly reviewing and updating their guidelines to meet educational needs in the fast-evolving nature of AI."
-      },
-      {
-        "no": 6,
-        "title": "Documentation and Transparency in AI Usage",
-        "explanation": "Several universities require students and faculty to document their use of AI tools, ensuring transparency on how AI contributes to academic work."
-      },
-      {
-        "no": 7,
-        "title": "Instructor Discretion in AI Integration",
-        "explanation": "Institutions offer varying flexibility for instructors to set AI usage policies when integrated into teaching, based on specific contexts and learning objectives."
-      }
-    ]
-  }
-  
+  "themes": [
+    {
+      "no": 1,
+      "title": "Academic Integrity and Responsible AI Use",
+      "explanation": "The majority of universities emphasize acceptance of AI in academic work, focusing on preventing plagiarism and unauthorized assistance."
+    },
+    {
+      "no": 2,
+      "title": "Clear Communication of AI Policies",
+      "explanation": "Some institutions encourage faculty to articulate their expectations for AI use, ensuring that students understand the implications when using AI tools in their coursework."
+    },
+    {
+      "no": 3,
+      "title": "Data Privacy and Security Concerns",
+      "explanation": "Many institutions place guidelines restricting the input of sensitive or confidential information into AI systems, stressing compliance with privacy regulations."
+    },
+    {
+      "no": 4,
+      "title": "Ethical Considerations in AI Use",
+      "explanation": "Many institutions acknowledge AI’s potential for bias, misinformation, and perpetuating inequalities, with some encouraging critical engagement and ethical discussions on its use."
+    },
+    {
+      "no": 5,
+      "title": "Continuous Adaptation and Policy Evolution",
+      "explanation": "Some institutions commit to regularly reviewing and updating their guidelines to meet educational needs in the fast-evolving nature of AI."
+    },
+    {
+      "no": 6,
+      "title": "Documentation and Transparency in AI Usage",
+      "explanation": "Several universities require students and faculty to document their use of AI tools, ensuring transparency on how AI contributes to academic work."
+    },
+    {
+      "no": 7,
+      "title": "Instructor Discretion in AI Integration",
+      "explanation": "Institutions offer varying flexibility for instructors to set AI usage policies when integrated into teaching, based on specific contexts and learning objectives."
+    }
+  ]
+}
