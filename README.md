@@ -1,4 +1,6 @@
-Codes for "ChatGPT Comes to Campus: Unveiling Core Themes in AI Policies Across U.S. Universities with Large Language Models", accepted in SIGCSE 2025. 
+Codes for: 
+
+Charles Alba, Wang Xi, Chenyu Wang, and Ruopeng An. 2025. ChatGPT Comes to Campus: Unveiling Core Themes in AI Policies Across U.S. Universities with Large Language Models. In Proceedings of the 56th ACM Technical Symposium on Computer Science Education V. 2 (SIGCSETS 2025). Association for Computing Machinery, New York, NY, USA, 1359–1360. https://doi.org/10.1145/3641555.3705141
 
 # About
 
