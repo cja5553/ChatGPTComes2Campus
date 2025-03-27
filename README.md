@@ -14,6 +14,7 @@ As such, this study could be divided into 2 parts, with (1) published in SIGCSE 
 >>> 2_theme_identification  
 >>> 3_identifying_final_set_of_common_themes
 >>> results
+
 >> 2_analyzing_how_universities_govern_generative_AI_across_core_themes
 >>> 1_extracting_policies_across_themes
 >>> 2_synthesizing_approaches
