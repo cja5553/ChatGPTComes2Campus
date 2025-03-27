@@ -17,7 +17,7 @@ As such, this study could be divided into 2 parts, with (1) published in SIGCSE 
 
 >> 2_analyzing_how_universities_govern_generative_AI_across_core_themes
 >>> 1_extracting_policies_across_themes  
->>> 2_synthesizing_approaches  
+>>> 2_synthesizing_approaches_from_policies
 >>> 3_condensing_synthesized_approaches  
 
 > assets
@@ -30,6 +30,6 @@ As such, this study could be divided into 2 parts, with (1) published in SIGCSE 
 > generic.html
 > index.html
 
-`Codes for analysis` contains all the source codes used to perform the analysis. It is divided into 2 parts, with each reflecting each part of the study.   
+`Codes for analysis` contains all the source codes used to perform the analysis. It is divided into 2 parts, with each reflecting  part of the study.   
 
 The other codes are for the accompanying webpage designed to provide practioners with a user-friendly guideline. `Index` serves as the main homepage of the webpage. 
