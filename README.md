@@ -17,7 +17,7 @@ As such, this study could be divided into 2 parts, with (1) published in SIGCSE 
 
 >> 2_analyzing_how_universities_govern_generative_AI_across_core_themes
 >>> 1_extracting_policies_across_themes  
->>> 2_synthesizing_approaches_from_policies
+>>> 2_synthesizing_approaches_from_policies  
 >>> 3_condensing_synthesized_approaches  
 
 > assets
